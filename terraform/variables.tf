@@ -1,6 +1,10 @@
 # Azure Region
 variable "location" {}
 
+# Docker Image
+ variable "docker_image" {
+  default = "phyremaster/papermc"
+}
 # VM Credentials
 variable "admin_username" {
   type        = string
