@@ -10,7 +10,7 @@ resource "azurerm_container_group" "minecraft_container" {
   # Container One
   container {
     name   = "hello-world"
-    image  = "${docker_image}"
+    image  = var.docker_image
     cpu    = "1"
     memory = "2"
 
