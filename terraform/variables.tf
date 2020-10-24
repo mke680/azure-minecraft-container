@@ -2,9 +2,8 @@
 variable "location" {}
 
 # Docker Image
- variable "docker_image" {
-  #default = "phyremaster/papermc"
-}
+variable "docker_image" {}
+
 # VM Credentials
 variable "admin_username" {
   type        = string
