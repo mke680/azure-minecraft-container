@@ -1,2 +1,2 @@
 # azure-minecraft-container
-Terraform based Minecraft
+Docked based PaperMC Server deployed via Terraform.
